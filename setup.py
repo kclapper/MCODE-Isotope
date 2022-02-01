@@ -6,14 +6,13 @@ def readfile(filename):
 
 setup(
     name="MCODE Isotope",
-    version="1.2.1",
+    version="1.2.2",
     description="A CLI for getting isotope masses from MCODE input files.",
     long_description=readfile('README.md'),
     author="S. Hauptman",
     packages=[
         'mcode_isotope',
     ],
-    license=readfile('LICENSE'),
     entry_points={
         'console_scripts': [
             'mcode_isotope = mcode_isotope:runCLI'

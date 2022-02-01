@@ -14,7 +14,7 @@ On Windows, these commands must be run as Adminstrator otherwise usage will be s
 If you have ssh setup with GitHub, the easiest way to install `mcode_isotope` is with the following
 command:
 
-    pip install git+ssh://git@github.mit.edu/kclapper/MCODE-Isotope.git
+    pip install git+https://github.com/kclapper/MCODE-Isotope.git
 
 If you don't have ssh setup, first clone/download the repository. Then from the project root directory run:
 
